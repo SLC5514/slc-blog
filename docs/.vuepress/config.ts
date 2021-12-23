@@ -2,7 +2,7 @@
  * @Author: SLC
  * @Date: 2021-12-22 09:45:32
  * @LastEditors: SLC
- * @LastEditTime: 2021-12-23 15:11:24
+ * @LastEditTime: 2021-12-23 16:16:23
  * @Description: file content
  */
 
@@ -16,6 +16,9 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN',
   title: '虚幻的光',
   description: '万物皆有裂痕，那是光进来的地方。',
+  head: [
+    ['link', { rel: 'icon', href: '/images/slc.ico' }]
+  ],
 
   // 多语言配置
   locales: {
