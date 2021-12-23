@@ -6,6 +6,8 @@ description: 页面描述
 
 # Hello VuePress
 
+<Test/>
+
 # Markdown
 
 ## 链接

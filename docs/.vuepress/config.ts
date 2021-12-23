@@ -2,7 +2,7 @@
  * @Author: SLC
  * @Date: 2021-12-22 09:45:32
  * @LastEditors: SLC
- * @LastEditTime: 2021-12-23 16:26:59
+ * @LastEditTime: 2021-12-23 17:00:13
  * @Description: file content
  */
 
@@ -116,5 +116,12 @@ export default defineUserConfig<DefaultThemeOptions>({
       handleImportPath: str => str.replace(/^@docs/, resolve(__dirname, '../')),
     },
   },
-
+  plugins: [
+    [
+      '@vuepress/register-components',
+      {
+        componentsDir: resolve(__dirname, './components'),
+      },
+    ],
+  ],
 })

@@ -2,16 +2,22 @@
   "name": "slc-blog",
   "version": "1.0.0",
   "description": "SLC的个人博客",
-  "scripts": {
-    "dev": "vuepress dev docs -p 8081",
-    "build": "vuepress build docs"
+  "author": "SLC",
+  "authors": {
+    "name": "SLC",
+    "email": "slc5514@163.com"
   },
   "keywords": [
     "vuepress"
   ],
-  "author": "slc",
+  "repository": "https://github.com/SLC5514/slc-blog",
   "license": "ISC",
+  "scripts": {
+    "dev": "vuepress dev docs -p 8081",
+    "build": "vuepress build docs"
+  },
   "devDependencies": {
+    "@vuepress/plugin-register-components": "^2.0.0-beta.29",
     "vuepress": "^2.0.0-beta.29"
   }
 }
