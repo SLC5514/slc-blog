@@ -2,26 +2,22 @@
 title: 首页
 description: 页面描述
 home: true
-heroImage: /images/logo.png
+# heroImage: /images/logo.png
 actions:
-  - text: 快速上手
-    link: /zh/guide/getting-started.html
+  - text: Vue3
+    link: ./link.md#vue3
     type: primary
-  - text: 项目简介
-    link: /guide/
+  - text: Pinia
+    link: ./link.md#pinia
     type: secondary
-features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
+# features:
+# - title: 综合 Api 文档
+#   details: 热门 框架/库/插件 的 Api 文档
+# - title: 快速查找使用
+#   details: 通过搜索快速查找内容，提升效率。
 footer: MIT Licensed | Copyright © 2021-present SLC
 ---
 
-# Hello VuePress
+# 综合 Api 文档
 
-## 链接
-
-[首页](./README.md) | [关于](./about.md) | [en关于](./en/about.md) | [语法示例](./test.md)
+快速浏览查找 Api 及其用法。

@@ -4,8 +4,4 @@ const siteData = useSiteData()
 console.log(siteData)
 </script>
 
-<template>
-  <div>
-    test
-  </div>
-</template>
+<template>test</template>
