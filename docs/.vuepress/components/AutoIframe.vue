@@ -45,6 +45,7 @@ onUnmounted(() => {
     :id="iframeId"
     class="auto-iframe"
     ref="iframeRef"
+    sandbox
     seamless
     width="100%"
     style="border: 1px solid var(--c-border);"
