@@ -1,0 +1,1 @@
+const e={key:"v-ebb51398",path:"/record-query.html",title:"\u8BB0\u5F55\u67E5\u8BE2",lang:"zh-CN",frontmatter:{title:"\u8BB0\u5F55\u67E5\u8BE2",test:[1,2,3]},excerpt:"",headers:[],git:{updatedTime:1640684756e3,contributors:[{name:"slc5514",email:"slc5514@163.com",commits:1}]},filePathRelative:"record-query.md"};export{e as data};
