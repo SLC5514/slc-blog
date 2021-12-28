@@ -4,6 +4,9 @@ description: 页面描述
 home: true
 # heroImage: /images/logo.png
 actions:
+  - text: 记录查询
+    link: ./record-query.md
+    type: primary
   - text: Vue3
     link: ./link.md#vue3
     type: primary

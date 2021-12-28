@@ -2,7 +2,7 @@
  * @Author: SLC
  * @Date: 2021-12-22 09:45:32
  * @LastEditors: SLC
- * @LastEditTime: 2021-12-23 17:00:13
+ * @LastEditTime: 2021-12-28 14:20:53
  * @Description: file content
  */
 
@@ -121,6 +121,19 @@ export default defineUserConfig<DefaultThemeOptions>({
       '@vuepress/register-components',
       {
         componentsDir: resolve(__dirname, './components'),
+      },
+    ],
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+          '/en/': {
+            placeholder: 'Search',
+          },
+        },
       },
     ],
   ],
